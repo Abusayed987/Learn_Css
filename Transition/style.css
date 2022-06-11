@@ -1,0 +1,36 @@
+h3{
+    text-align: center;
+}
+.box1{
+    width: 600px;
+    height: 300px;
+    background-color: green;
+    margin: 50px auto;
+    border-radius: 5px;
+    position: relative;
+   /* transition-property: all;
+   transition-delay: 0s;
+   transition-duration: 0.5s;
+   transition-timing-function: linear; */
+}
+.circle{
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transition-property: all;
+    transition-delay: 0.5s;
+    transition-duration: 2s;
+    
+}
+.circle:hover{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transform: rotate(180deg);  
+}

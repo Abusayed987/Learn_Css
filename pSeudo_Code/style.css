@@ -1,0 +1,7 @@
+h2:nth-child(3){
+   color: blue;
+}
+h3::first-letter{
+    font-size: 35px;
+    color: black;
+}

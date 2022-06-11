@@ -1,0 +1,14 @@
+.flexbox{
+    background-color: aqua;
+    font-size: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between; /* for row */
+    height: 400px;
+    align-items:center; /* for colum */
+}
+.flexbox > div{
+    background-color: goldenrod;
+    border-radius: 7px;
+}
